@@ -1,0 +1,23 @@
+tup_a = (10, 11, 12, 13) 
+tup_b = ('IT', 5001) 
+tup_c = tup_a + tup_b 
+print('1.', 11 in tup_a) 
+print('2.', 14 in tup_b) 
+print('3.', 'I' in tup_c) 
+print('4.', tup_b[1]) 
+tup_d = tup_b[0] * 4 
+print('5.', tup_d) 
+print('6.', tup_b[1] * 4) 
+tup_e = tup_d[1:] 
+print('7.', tup_e) 
+tup_f = tup_d[::-1] 
+print('8.', tup_f) 
+tup_g = tup_d[1:-1:2] 
+print('9.', tup_g) 
+tup_h = tup_d[-1:6:-2] 
+print('10.', tup_h) 
+tup_i = (1) 
+print('11.', tup_i) 
+print('12.', tup_i * 4) 
+tup_j = (1,) 
+print('13.', tup_j)
